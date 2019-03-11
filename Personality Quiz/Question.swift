@@ -40,13 +40,13 @@ enum AnimalType: String {
     var definition: String {
         switch self {
         case .dog:
-            return "You have been the happiest dog in your last life. You were surrouded with the ones you loved and enjoyed outdoor activities."
+            return "You have been the happiest dog in your last life. You were surrouded with the ones you loved and enjoyed outdoor activities!"
         case .cat:
             return "Mischievous, yet mild-tempered, you have enjoyed doing things on your own terms."
         case .rabbit:
-            return "You were the sweetest animal in the world. You were healthy and full of energy"
+            return "You were the sweetest animal in the world. You were healthy and full of energy!"
         case .turtle:
-            return "Slow and steady wins the race"
+            return "Slow and steady wins the race!"
         }
     }
 }

@@ -31,7 +31,7 @@ class ResultsViewController: UIViewController {
             frequencyOfAnswers[response] = (frequencyOfAnswers[response] ?? 0) + 1
         }
         
-        let frequestAnswersSorted = frequencyOfAnswers.sorted(by: {(pair1, pair2) -> Bool in return pair1.value > pair2.value})
+        //let frequestAnswersSorted = frequencyOfAnswers.sorted(by: {(pair1, pair2) -> Bool in return pair1.value > pair2.value})
         
         let mostCommonAnswer = frequencyOfAnswers.sorted { $0.1 > $1.1}.first!.key
         

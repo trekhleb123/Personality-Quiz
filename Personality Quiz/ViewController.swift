@@ -54,10 +54,6 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var rangedProgressView: UIProgressView!
     
-    
-
-    //@IBAction func submitButtonPressed(_ sender: UIButton) {
-    //}
    
     
     
@@ -135,7 +131,6 @@ class ViewController: UIViewController {
         if multiSwitch4.isOn {
             
             answersChosen.append(currentAnswers[3])
-            
         }
         
         nextQuestions()
